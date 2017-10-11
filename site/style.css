@@ -1,0 +1,19 @@
+p { color: purple; } /*base styles */
+
+@media (max-width: 767 px) {
+	p: {
+		color:yellow;
+	}
+}
+
+@media (min-width:768 px) and (max-width: 991 px)  {
+	p: {
+		color:blue;
+	}
+}
+
+@media (min-width: 992 px) {
+	p: {
+		color:pink;
+	}
+}
