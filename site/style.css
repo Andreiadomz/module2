@@ -1,3 +1,5 @@
+<style>
+
 p { color: purple; } /*base styles */
 
 @media (max-width: 767 px) {
@@ -17,3 +19,5 @@ p { color: purple; } /*base styles */
 		color:pink;
 	}
 }
+
+</style>
