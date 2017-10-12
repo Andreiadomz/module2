@@ -15,7 +15,6 @@ h1 {
 }
 
 #bigcontainer {
-  background-color: pink;
   position: relative;
   width: 1200px;
   height: 400px;
@@ -95,18 +94,17 @@ p {
     width: 40%;
   }
   #sc3 {
-    width: 100%;
-    position: absolute;
+    display: inline-block;
+    width: 95%
   }
  }
 
-  @media (max-width: 767px) {
+  @media (min-width: 0px) and (max-width: 767px) {
   #sc1, #sc2, #sc3 {
-    width: 100%;
-    position: inlin
-  }
-}
+    display: inline-block;
+    width: 80%;
 
+  }
 }
 
 </style>
